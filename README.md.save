@@ -1,0 +1,28 @@
+### Features
+
+- This will help convert English numbers to Myanmar Kyat in full description.
+
+## Usage
+```java
+MyanmarKyatConverter.convertToMyanmarKyat("1050000")
+```
+
+## Installation
+
+MyanmarKyatConverter is installed by adding the following dependency to your `build.gradle` file:
+
+```groovy
+
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+dependencies {
+    MyanmarKyatConverter.convertToMyanmarKyat(it)
+}
+```
+
+
+
