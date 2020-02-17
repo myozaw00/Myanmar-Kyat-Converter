@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         add(edNumber.textChanges().subscribe {
-            tvOutput.text = MyanmarKyatConverter.convertToMyanmarKyat(it)
+            tvOutput.text = afa
         })
     }
 

@@ -12,7 +12,7 @@ MyanmarKyatConverter.convertToMyanmarKyat(it)
 
 ## Installation
 
-ApkDownloader is installed by adding the following dependency to your `build.gradle` file:
+MyanmarKyatConverter is installed by adding the following dependency to your `build.gradle` file:
 
 ```groovy
 
