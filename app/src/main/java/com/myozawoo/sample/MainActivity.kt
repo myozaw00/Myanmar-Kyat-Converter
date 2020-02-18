@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.widget.addTextChangedListener
 import com.jakewharton.rxbinding3.widget.textChanges
+import com.myozawoo.mmkyat_converter.EnglishNumberToWords
 import com.myozawoo.mmkyat_converter.MyanmarKyatConverter
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
@@ -17,7 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         add(edNumber.textChanges().subscribe {
-            tvOutput.text = MyanmarKyatConverter.convertToMyanmarKyat(it)
+            tvOutput.text = "${MyanmarKyatConverter.convertToMyanmarKyat(it)}" +
+                    "\n\n${EnglishNumberToWords.convert(it)}"
         })
     }
 
