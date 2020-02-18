@@ -27,7 +27,7 @@ allprojects {
 }
 
 dependencies {
-	implementation 'com.github.myozaw00:Myanmar-Kyat-Converter:1.0'
+	implementation 'com.github.myozaw00:Myanmar-Kyat-Converter:1.1'
 }
 ```
 
