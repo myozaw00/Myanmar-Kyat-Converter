@@ -6,7 +6,11 @@
 
 ## Usage
 ```java
-MyanmarKyatConverter.convertToMyanmarKyat(it)
+
+MyanmarKyatConverter.convertToMyanmarKyat("100") -> တစ်ရာ
+
+EnglishNumberToWords.convert("100") -> One Hundred
+
 ```
 
 
